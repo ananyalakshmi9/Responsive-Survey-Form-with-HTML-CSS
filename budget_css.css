@@ -1,0 +1,70 @@
+body{
+    background-color:aliceblue;
+}
+#image{
+    position: fixed;
+    position:absolute;
+    right: 150px;
+    height: 300px;
+    width:300px;
+}
+h1{
+    text-align: center;
+    background-color:rgb(6, 163, 242,0.723) ;
+}
+h3{
+    color:rgb(6, 163, 242);
+
+}
+
+div{
+    text-align: left;
+}
+.outer{
+     margin-top: 0px;
+     padding: 10px;
+    border:10px solid rgba(6, 163,242,0.723);
+    border-bottom: 5px rgba(6, 163,242,0.723);
+    
+}
+.outer1{
+    margin-top: 0px;
+    padding: 10px;
+    border-top: 5px rgba(6, 163,242,0.723);
+    border:10px solid rgba(6, 163,242,0.723);
+    border-bottom: 5px rgba(6, 163,242,0.723);
+    border: radius 5px; 
+
+}
+.outer2{
+    margin-top: 0px;
+    padding: 10px;
+    border-top: 5px rgba(6, 163,242,0.723);
+   border:10px solid rgba(6, 163,242,0.723);
+   border-bottom: rgba(6, 163,242,0.723) 5px;
+
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+#submit:hover,#refresh:hover{
+    background-color: rgba(6,163,242,0.723);
+    color: beige;
+    size: 20px;
+}
+#footer{
+    text-align: center;
+}
+.outer3{
+    margin-top: 0px;
+    border-top: 5px;
+   border:10px solid rgba(6, 163,242,0.723);
+   border-left: 0px;
+   border-right: 0px;
+
+}
+a:visited{font-size:12px; font-family:verdana; font-weight:bold; color:rgba(6, 163,242,0.723);}
+a:active{font-weight:bold; color:black}
+

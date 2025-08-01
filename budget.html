@@ -1,0 +1,211 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>IBSF</title>
+    <link rel="stylesheet" href="unit1stle.css">
+    
+</head>
+<body>
+ <script>
+    function submit(){
+        let name=document.getElementById("name").value;
+        alert("Thank you,successfully submitted" +name+"!");
+    }
+    </script>
+
+    <h1 >Indian Budget 2024 Survey Form</h1><br>
+    <div class="outer">
+       
+        <h3>Indian budget highlights:</h3>
+        <table class="table">
+            <tr>
+                    <th width="500px" height="50px">Sector</th>
+                    <th width="500px" height="50px"  >Allocatin( in crores)</th>
+                    <th width="500px" height="50px" >Percenatge</th>
+            </tr>
+            <tr>
+                <th>Healthcare</th>
+                <td>250000</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <th>Education</th>
+                <td>180000</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <th>Infrastructure</th>
+                <td>320000</td>
+                <td>20%</td>
+            </tr>  
+        </table><br>
+        For more details, visit the <a href="https://www.indiabudget.gov.in/">Indian Budget 2024</a>
+    </div>
+    <div class="outer1">
+        <img src="budget.jpeg" id="image"><br>
+        <h3>Schemes Annouced in Budget 2024:</h3>
+        
+        <ul>
+            <li>NPS Vatsalya</li>
+            <li>Energy Security</li>
+            <li>E-Commerce Export Hubs</li>
+            <li>Rooftop Solarisation Scheme</li>
+            <li>Atmanirbhar Oil Seeds Abhiyan</li>
+            <li>Employment Linked Incentive Schemes</li>
+            <li>Pradhan Mantri Gram Sadak Yojana (PMGSY) </li>
+            <li>Pradhan Mantri Janjatiya Unnat Gram Abhiyan </li>
+            <li>Credit Support to MSMEs during Stress Period</li>
+            <li>Productivity and resilience in Agriculture</li>
+            <li>Inclusive Human Resource Development and Social Justice</li>
+            <li>Credit Guarantee Scheme for MSMEs in the Manufacturing Sector</li>
+            
+        </ul>
+        
+    </div>
+    <div class="outer2">
+        <h3>Feedback Form:</h3>
+        <form  method="POST">
+                <label for="Name">Name:</label><br>
+                <input type="text" placeholder="name" size="215" id="name" required ></input><br><br>
+                <label for="gender">Gender:</label><br>
+                <label><input type="radio" name="gender" required="required"> Male</label><br>
+                <label><input type="radio" name="gender" required="required"> Female</label><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" placeholder="email" size="215" required></input><br><br>
+                <label for="number">Phone number:</label><br>
+                <input type="tel" placeholder="number" size="215" pattern="[0-99]{10}" minlength="10" required></input><br><br>
+                <label for="state">State:</label><br>
+                <select menu="state" size="1"  style="width: 1470px;">
+                    <option>Andhra Pradesh</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Karnataka</option>
+                    <option>Maharashtra</option>
+                    <option>Nagaland</option>
+                    <option>Tamil Nadu</option>
+                    <option>Others</option>
+                </select><br><br>
+                <label for="feedback">Your feedback:</label><br>
+               <textarea name="feedback" rows="15" cols="197" placeholder="feedback" required></textarea><br><br>
+            <div>
+                <input type="submit" value="Submit" onclick="submit()" id="submit">
+                <input type="reset" value="Reset" id="refresh">
+            </div>
+                </form>
+    
+</div>
+<div class="outer3">
+    <footer>
+    <p id="footer">&copy; 2024 Indian Government Budget Divison</p>
+</footer>
+</div>
+    
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>IBSF</title>
+    <link rel="stylesheet" href="budget_css.css">
+</head>
+<body>
+<script>
+    function submitForm(event){
+        event.preventDefault();
+        let name = document.getElementById("name").value;
+        alert("Thank you, successfully submitted " + name + "!");
+    }
+</script>
+
+<h1>Indian Budget 2024 Survey Form</h1><br>
+<div class="outer">
+    <h3>Indian budget highlights:</h3>
+    <table class="table">
+        <tr>
+            <th width="500px" height="50px">Sector</th>
+            <th width="500px" height="50px">Allocation (in crores)</th>
+            <th width="500px" height="50px">Percentage</th>
+        </tr>
+        <tr>
+            <th>Healthcare</th>
+            <td>250000</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <th>Education</th>
+            <td>180000</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <th>Infrastructure</th>
+            <td>320000</td>
+            <td>20%</td>
+        </tr>
+    </table><br>
+    For more details, visit the <a href="https://www.indiabudget.gov.in/">Indian Budget 2024</a>
+</div>
+<div class="outer1">
+    <img src="budget.jpeg" id="image"><br>
+    <h3>Schemes Announced in Budget 2024:</h3>
+    <ul>
+        <li>NPS Vatsalya</li>
+        <li>Energy Security</li>
+        <li>E-Commerce Export Hubs</li>
+        <li>Rooftop Solarisation Scheme</li>
+        <li>Atmanirbhar Oil Seeds Abhiyan</li>
+        <li>Employment Linked Incentive Schemes</li>
+        <li>Pradhan Mantri Gram Sadak Yojana (PMGSY)</li>
+        <li>Pradhan Mantri Janjatiya Unnat Gram Abhiyan</li>
+        <li>Credit Support to MSMEs during Stress Period</li>
+        <li>Productivity and Resilience in Agriculture</li>
+        <li>Inclusive Human Resource Development and Social Justice</li>
+        <li>Credit Guarantee Scheme for MSMEs in the Manufacturing Sector</li>
+    </ul>
+</div>
+<div class="outer2">
+    <h3>Feedback Form:</h3>
+    <form method="POST" onsubmit="submitForm(event)">
+        <label for="Name">Name:</label><br>
+        <input type="text" placeholder="name" size="215" id="name" required></input><br><br>
+        <label for="gender">Gender:</label><br>
+        <label><input type="radio" name="gender" required="required"> Male</label><br>
+        <label><input type="radio" name="gender" required="required"> Female</label><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="email" size="215" required></input><br><br>
+        <label for="number">Phone number:</label><br>
+        <input type="tel" placeholder="number" size="215" pattern="[0-9]{10}" minlength="10" required></input><br><br>
+        <label for="state">State:</label><br>
+        <select menu="state" size="1" style="width: 1470px;">
+            <option>Andhra Pradesh</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Himachal Pradesh</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+            <option>Nagaland</option>
+            <option>Tamil Nadu</option>
+            <option>Others</option>
+        </select><br><br>
+        <label for="feedback">Your feedback:</label><br>
+        <textarea name="feedback" rows="15" cols="197" placeholder="feedback" required></textarea><br><br>
+        <div>
+            <input type="submit" value="Submit" id="submit">
+            <input type="reset" value="Reset" id="refresh">
+        </div>
+    </form>
+</div>
+<div class="outer3">
+    <footer>
+        <p id="footer">&copy; 2024 Indian Government Budget Division</p>
+    </footer>
+</div>
+</body>
+</html>
