@@ -26,10 +26,11 @@ A static, single-page web application built with HTML, CSS, and basic JavaScript
 To run this project, you will need the following files in the same directory:
 
 .
+```
 ├── 📜 index.html        # The main HTML file (or your .html file's name)
 ├── 🎨 budget_css.css      # The stylesheet
 └── 🖼️ budget.jpeg         # The image used on the page
-
+```
 
 ---
 
