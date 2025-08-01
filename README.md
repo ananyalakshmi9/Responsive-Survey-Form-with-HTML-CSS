@@ -17,7 +17,7 @@ A static, single-page web application built with HTML, CSS, and basic JavaScript
 
 * **HTML5**
 * **CSS3**
-* **JavaScript (Vanilla JS)**
+* **JavaScript**
 
 ---
 
